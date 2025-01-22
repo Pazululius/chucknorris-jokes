@@ -55,6 +55,7 @@ function App() {
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
           style={{
+            color: "black",
             marginBottom: "10px",
             borderRadius: "20px",
             padding: "5px",
